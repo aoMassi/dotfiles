@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = gh api user/emails | jq -r '.[].email'
+	name = gh api user/emails | jq -r '.[].email'
